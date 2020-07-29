@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0DE7E2224D1577100322061 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E2024D1577100322061 /* Person+CoreDataClass.swift */; };
 		C0FC667C24D08BF700191951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC667B24D08BF700191951 /* AppDelegate.swift */; };
 		C0FC667E24D08BF700191951 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC667D24D08BF700191951 /* SceneDelegate.swift */; };
 		C0FC668024D08BF700191951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FC667F24D08BF700191951 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0DE7E2024D1577100322061 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
 		C0FC667824D08BF700191951 /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FC667B24D08BF700191951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0FC667D24D08BF700191951 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0DE7E1F24D0D71E00322061 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0DE7E2024D1577100322061 /* Person+CoreDataClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C0FC666F24D08BF700191951 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		C0FC667A24D08BF700191951 /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C0DE7E1F24D0D71E00322061 /* Model */,
 				C0FC667B24D08BF700191951 /* AppDelegate.swift */,
 				C0FC667D24D08BF700191951 /* SceneDelegate.swift */,
 				C0FC667F24D08BF700191951 /* ViewController.swift */,
@@ -143,6 +154,7 @@
 			files = (
 				C0FC668024D08BF700191951 /* ViewController.swift in Sources */,
 				C0FC668624D08BF700191951 /* CoreDataDemo.xcdatamodeld in Sources */,
+				C0DE7E2224D1577100322061 /* Person+CoreDataClass.swift in Sources */,
 				C0FC667C24D08BF700191951 /* AppDelegate.swift in Sources */,
 				C0FC667E24D08BF700191951 /* SceneDelegate.swift in Sources */,
 			);
