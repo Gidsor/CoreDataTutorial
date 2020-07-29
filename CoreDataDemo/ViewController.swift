@@ -26,6 +26,28 @@ class ViewController: UIViewController {
         fetchPeople()
     }
     
+    func relationshipDemo() {
+        // create family
+        let family = Family(context: context)
+        family.name = "Abc Family"
+        
+        // create person
+        let person = Person(context: context)
+        person.name = "Mag"
+        
+        // Add person to family
+//        person.family = family
+        family.addToPeople(person)
+        
+        // save context
+        do {
+            try context.save()
+        } catch {
+            
+        }
+        
+    }
+    
     func fetchPeople() {
         
         // fetch the data from Core Data to display in the tableview
